@@ -1,0 +1,128 @@
+
+header{
+    z-index:1000;
+   
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    height:80px;
+    flex-wrap: wrap;
+    text-align: center;
+    position:fixed;
+    width:100%;
+    border-bottom:7px solid #FFD966;
+    top:0px;
+    z-index:999;
+  }
+  
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+  }
+  
+  .logo {
+    width:190px;
+    height:auto;
+    margin-right: 20px;
+    position:absolute;
+    left: 20px;
+    top: 22px;
+    margin-left:120px;
+  }
+  .nsm7Bb-HzV7m-LgbsSe {
+  }
+  
+  .verification-container {
+    display: flex; 
+    align-items: center; 
+    flex-grow: 1; 
+    margin-top: -70px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  
+  .verification-text {
+    margin: 0;
+    text-align: center;
+    top:70px; 
+    left:45%; 
+    margin-left:-4%;
+    transform: translateY(75%); 
+  }
+  
+  
+  
+  @media (max-width: 480px) {
+    .header-container {
+       width:100%;
+    }
+    .logo {
+      position: relative;
+      margin: 0;
+      left: -30px;
+      top: 17px; 
+      width: 120px;
+      height: auto;
+    }
+  
+    .verification-container {
+      position: relative;
+      top: unset;
+      left: -30px; 
+      margin-top: 0;
+      text-align: center;
+      flex-grow: 1; 
+    }
+  
+    .verification-text {
+      margin: 0;
+      text-align: center;
+      position: relative;
+      top: unset;
+      left: unset;
+      transform: translateY(0%);
+    }
+  }
+  
+  
+  @media (max-width:768px) {
+    .header-container {
+       width:100%;
+    }
+    .logo {
+      position: relative;
+      margin: 0;
+      left: -30px;
+      top: 17px; 
+      width: 120px;
+      height: auto;
+    }
+  
+    .verification-container {
+      position: relative;
+      top: unset;
+      left: -30px; 
+      margin-top: 0;
+      text-align: center;
+      flex-grow: 1; 
+    }
+  
+    .verification-text {
+      margin: 0;
+      text-align: center;
+      position: relative;
+      top: unset;
+      left: unset;
+      transform: translateY(0%);
+    }
+  }
+  
