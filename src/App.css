@@ -4,3 +4,233 @@
   font-family: "Inter", sans-serif;
 }
 
+
+.sign-out-btn {
+  position: absolute; 
+  top: 40px; 
+  right:130px; 
+}
+
+.sign-in-btn {
+  background-color: #ffd700; 
+  color: #333; 
+}
+
+.sign-out-btn {
+  background-color: #FFD966; 
+  color: #fff;
+  margin-right: 10px; 
+  width:139px;
+  height:43px;
+  border-radius:10px;
+  font-size:18px;
+  font-weight:600;
+  position:fixed;
+  z-index:1000;
+}
+
+.sign-in-btn,
+.sign-out-btn {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+  color:black;
+}
+
+.sign-in-btn:hover,
+.sign-out-btn:hover {
+  background-color: #daa520; 
+  color: white;
+
+}
+
+
+.google-login-container {
+  position:fixed;
+  top: 38px;
+  right:7%;
+  max-width:20%;
+  z-index:1000;
+}
+.google-login-container:hover {
+  box-shadow: 0 0 10px 5px rgba(255, 215, 0, 0.5); 
+}
+
+.invalid-login {
+  position: absolute;
+  top:125px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-weight: 700;
+  width: 380px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: red;
+}
+
+
+
+@media (max-width: 480px) {
+  .sign-in-btn,
+  .sign-out-btn {
+    position:absolute; 
+    top: 40px; 
+    right: -60px; 
+  }
+
+  .sign-in-btn {
+    background-color: #ffd700; 
+    color: #333; 
+  }
+
+  .sign-out-btn {
+    background-color: #ff4500; 
+    color: #fff;
+    margin-right:-40px; 
+    position:fixed;
+  }
+
+  .sign-in-btn,
+  .sign-out-btn {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    top:9%;
+    right:2.5%;
+  }
+
+  .sign-in-btn:hover,
+  .sign-out-btn:hover {
+    background-color: #daa520; 
+  }
+  .google-login-btn {
+    background-color: #4285f4;
+    max-width:100%; 
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .google-login-btn:hover {
+    background-color: #357ae8; 
+  }
+  .google-login-container{
+    background-color: #4285f4;
+    max-width:100%; 
+  }
+
+  .S9gUrf-YoZ4jf:hover {
+    box-shadow: 0 0 10px 5px rgba(0, 2.5, 255, 2.5); 
+  }
+  .google-login-container {
+    position: absolute;
+    top:9%;
+    right: 20%;
+    max-width:28%;
+  }
+  .google-login-container:hover {
+    box-shadow: 0 0 10px 5px rgba(0, 2.5, 255, 2.5);
+  }
+  .invalid-login{
+    color:white;
+    margin-left:10%;
+    margin-top:30px;
+    font-weight:700;
+    width:380px;
+    padding:20px;
+    border-radius:5px;
+    background-color:red;
+  }
+  
+  
+}
+
+
+
+@media (max-width: 768px) {
+  .sign-in-btn,
+  .sign-out-btn {
+    position:absolute; 
+    top: 40px; 
+    right: -60px; 
+  }
+
+  .sign-in-btn {
+    background-color: #ffd700; 
+    color: #333; 
+  }
+
+  .sign-out-btn {
+    background-color: #ff4500; 
+    color: #fff;
+    margin-right:-40px; 
+    position:fixed;
+  }
+
+  .sign-in-btn,
+  .sign-out-btn {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    top:9%;
+    right:2.5%;
+  }
+
+  .sign-in-btn:hover,
+  .sign-out-btn:hover {
+    background-color: #daa520; 
+  }
+  .google-login-btn {
+    background-color: #4285f4;
+    max-width:100%; 
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .google-login-btn:hover {
+    background-color: #357ae8; 
+  }
+  .google-login-container{
+    background-color: #4285f4;
+    max-width:100%; 
+  }
+
+  .S9gUrf-YoZ4jf:hover {
+    box-shadow: 0 0 10px 5px rgba(0, 2.5, 255, 2.5); 
+  }
+  .google-login-container {
+    position: absolute;
+    top:9%;
+    right: 20%;
+    max-width:28%;
+  }
+  .google-login-container:hover {
+    box-shadow: 0 0 10px 5px rgba(0, 2.5, 255, 2.5);
+  }
+  .invalid-login{
+    color:white;
+    margin-left:10%;
+    margin-top:30px;
+    font-weight:700;
+    width:380px;
+    padding:20px;
+    border-radius:5px;
+    background-color:red;
+  }
+  
+  
+}
